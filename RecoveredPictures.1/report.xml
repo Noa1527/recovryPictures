@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.2-WIP</version>
+    <build_environment>
+      <compiler>GCC 4.2</compiler>
+      <library name='libext2fs' version='none'/>
+      <library name='libewf' version='none'/>
+      <library name='libjpeg' version='libjpeg-turbo-2.1.0'/>
+      <library name='libntfs' version='libntfs-3g'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Darwin</os_sysname>
+      <os_release>22.4.0</os_release>
+      <os_version>Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:41 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8103</os_version>
+      <host>Mickael</host>
+      <arch>x86_64</arch>
+      <uid>501</uid>
+      <start_time>2023-04-26T20:52:01+0200</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/Volumes/NO NAME</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>32768</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='32768'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+</dfxml>
